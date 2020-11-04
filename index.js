@@ -64,6 +64,6 @@ function addAnimation(currentKey) {
 
     setTimeout(function() {
         document.querySelector("." + currentKey).classList.remove("pressed");
-    }, 200);
+    }, 100);
 
 }
